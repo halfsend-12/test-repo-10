@@ -12,15 +12,6 @@ roles:
     - fix
     - retro
     - prioritize
-agents:
-    - name: local-base
-      source: harness/local-base.yaml
-    - name: local-child
-      source: harness/local-child.yaml
-    - name: remote-base-child
-      source: harness/remote-base-child.yaml
-    - name: remote-child
-      source: https://raw.githubusercontent.com/halfsend-12/test-repo-10-base-harness-host/main/harness/remote-child.yaml#sha256=4029e472563b4e541b1c5adde208d55cf08c38a04fbd4345402da1b976610959
 allowed_remote_resources:
     - https://raw.githubusercontent.com/fullsend-ai/fullsend/
     - https://raw.githubusercontent.com/fullsend-ai/agents/
